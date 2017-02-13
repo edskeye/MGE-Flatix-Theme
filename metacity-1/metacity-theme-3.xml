@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-  <name>VimixDark-Ruby</name>
+  <name>Flatix Theme</name>
   <author>Vince</author>
   <copyright>GPL</copyright>
   <date>2016</date>
-  <description>VimixDark Metacity theme</description>
+  <description>VimixDark Metacity theme as a part of Flatix Theme</description>
 </info>
 
 
@@ -370,7 +370,7 @@
 
 <draw_ops name="appmenu_icon_focused">
   <icon
-    x="(width-D_appmenu_icon_size)/2" y="(height-D_appmenu_icon_size)/2" 
+    x="(width-D_appmenu_icon_size)/2" y="(height-D_appmenu_icon_size)/2"
     width="D_appmenu_icon_size" height="D_appmenu_icon_size"/>
 </draw_ops>
 
@@ -388,7 +388,7 @@
 
 <draw_ops name="appmenu_icon_unfocused">
   <icon
-    x="(width-D_appmenu_icon_size)/2" y="(height-D_appmenu_icon_size)/2" 
+    x="(width-D_appmenu_icon_size)/2" y="(height-D_appmenu_icon_size)/2"
     width="D_appmenu_icon_size" height="D_appmenu_icon_size"
     alpha="0.75"/>
 </draw_ops>

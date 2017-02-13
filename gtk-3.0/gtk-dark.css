@@ -15,9 +15,9 @@
     background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.15) 100%, transparent 0%), image(alpha(currentColor, 0)); } }
 @keyframes tab_ripple_effect {
   from {
-    background-image: radial-gradient(circle farthest-corner at center, rgba(21, 159, 133, 0.6) 0%, transparent 0%); }
+    background-image: radial-gradient(circle farthest-corner at center, rgba(22, 160, 133, 0.6) 0%, transparent 0%); }
   50% {
-    background-image: radial-gradient(circle farthest-corner at center, rgba(21, 159, 133, 0.6) 100%, transparent 0%); }
+    background-image: radial-gradient(circle farthest-corner at center, rgba(22, 160, 133, 0.6) 100%, transparent 0%); }
   to {
     background-image: radial-gradient(circle farthest-corner at center, transparent 100%, transparent 0%); } }
 @keyframes header_ripple_effect {
@@ -145,21 +145,21 @@ popover.background.touch-selection, popover.background.magnifier, popover.backgr
     -gtk-icon-transform: rotate(1turn); } }
 @keyframes spin_colors {
   1% {
-    color: #66BB6A; }
+    color: #87ffd0; }
   25% {
-    color: #66BB6A; }
+    color: #87ffd0; }
   26% {
-    color: #42A5F5; }
+    color: #1cdbb5; }
   50% {
-    color: #42A5F5; }
+    color: #1cdbb5; }
   51% {
-    color: #159f85; }
+    color: #16a085; }
   75% {
-    color: #159f85; }
+    color: #16a085; }
   76% {
-    color: #EF5350; }
+    color: #0b8069; }
   100% {
-    color: #EF5350; } }
+    color: #0b8069; } }
 spinner {
   background: none;
   opacity: 0;
@@ -367,9 +367,9 @@ treeview entry.flat, treeview entry {
  ***********/
 @keyframes needs_attention {
   from {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.001, to(#159f85), to(transparent)); }
+    background-image: -gtk-gradient(radial, center center, 0, center center, 0.001, to(#16a085), to(transparent)); }
   to {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#159f85), to(transparent)); } }
+    background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#16a085), to(transparent)); } }
 button {
   min-height: 24px;
   min-width: 16px;
@@ -400,7 +400,7 @@ button {
     color: #FFFFFF; }
   button:checked:disabled {
     background-color: alpha(currentColor, 0.3);
-    color: rgba(21, 159, 133, 0.4); }
+    color: rgba(22, 160, 133, 0.4); }
   .inline-toolbar
   button:not(.text-button), modelbutton.flat,
   .menuitem.button.flat, spinbutton:not(.vertical) button, spinbutton.vertical button, popover.background.menu button,
@@ -514,7 +514,7 @@ button.osd {
   button.osd:disabled {
     opacity: 0; }
 button.suggested-action {
-  background-color: #159f85;
+  background-color: #16a085;
   color: #FFFFFF; }
   button.suggested-action:disabled {
     box-shadow: none;
@@ -524,13 +524,13 @@ button.suggested-action {
     background-color: #ff9198; }
   button.suggested-action.flat {
     background-color: transparent;
-    color: #159f85; }
+    color: #16a085; }
     button.suggested-action.flat:disabled {
       box-shadow: none;
       background-color: transparent;
       color: alpha(currentColor, 0.3); }
 button.destructive-action {
-  background-color: #159f85;
+  background-color: #16a085;
   color: #FFFFFF; }
   button.destructive-action:disabled {
     box-shadow: none;
@@ -540,7 +540,7 @@ button.destructive-action {
     background-color: #9a9a9a; }
   button.destructive-action.flat {
     background-color: transparent;
-    color: #159f85; }
+    color: #16a085; }
     button.destructive-action.flat:disabled {
       box-shadow: none;
       background-color: transparent;
@@ -887,9 +887,9 @@ headerbar {
     border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #0e8c73 0%, transparent 0%) 0 0 0/0 0 0px; }
     .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):hover,
     headerbar button:not(.suggested-action):not(.destructive-action):hover {
-      border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #159f85 100%, transparent 0%) 0 0 2/0 0 2px;
+      border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #16a085 100%, transparent 0%) 0 0 2/0 0 2px;
       background: none;
-      color: #159f85; }
+      color: #16a085; }
       .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):hover, .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action):hover:disabled,
       headerbar button:not(.suggested-action):not(.destructive-action):hover,
       headerbar button:not(.suggested-action):not(.destructive-action):hover:disabled {
@@ -1063,7 +1063,7 @@ treeview.view {
   treeview.view:drop(active) {
     border-style: solid none;
     border-width: 1px;
-    border-color: #159f85; }
+    border-color: #16a085; }
     treeview.view:drop(active).after {
       border-top-style: none; }
     treeview.view:drop(active).before {
@@ -1097,7 +1097,7 @@ treeview.view {
   treeview.view.trough {
     border-style: none none solid;
     border-width: 4px;
-    border-color: rgba(21, 159, 133, 0.3);
+    border-color: rgba(22, 160, 133, 0.3);
     box-shadow: none;
     background-color: transparent; }
     treeview.view.trough:selected {
@@ -1542,7 +1542,7 @@ switch {
   switch:checked slider {
     animation: needs_attention 0.3s cubic-bezier(0, 0, 0.2, 1);
     margin: -4px -4px -4px 0;
-    background-color: #159f85;
+    background-color: #16a085;
     color: #FFFFFF; }
   switch:disabled slider {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -1595,7 +1595,7 @@ radio {
   check:checked, check:indeterminate,
   radio:checked,
   radio:indeterminate {
-    color: #159f85; }
+    color: #16a085; }
   check:checked:disabled, check:indeterminate:disabled,
   radio:checked:disabled,
   radio:indeterminate:disabled {
@@ -1631,17 +1631,17 @@ check:indeterminate {
   -gtk-icon-source: image(-gtk-recolor(url("assets/check-dash-symbolic.svg")), -gtk-recolor(url("assets/check-dash-symbolic.png"))); }
 
 radio {
-  border-image: -gtk-gradient(radial, center center, 0, center center, 0.001, to(#159f85), to(transparent)) 22/22px; }
+  border-image: -gtk-gradient(radial, center center, 0, center center, 0.001, to(#16a085), to(transparent)) 22/22px; }
   radio {
     -gtk-icon-source: image(-gtk-recolor(url("assets/radio-unchecked-symbolic.svg")), -gtk-recolor(url("assets/radio-unchecked-symbolic.png"))); }
   radio:indeterminate {
     -gtk-icon-source: image(-gtk-recolor(url("assets/radio-dash-symbolic.svg")), -gtk-recolor(url("assets/radio-dash-symbolic.png"))); }
   radio:checked {
-    border-image: -gtk-gradient(radial, center center, 0, center center, 0.11364, to(#159f85), to(transparent)) 22/22px; }
+    border-image: -gtk-gradient(radial, center center, 0, center center, 0.11364, to(#16a085), to(transparent)) 22/22px; }
   radio:checked:disabled {
     border-image: -gtk-gradient(radial, center center, 0, center center, 0.11364, to(rgba(28, 219, 181, 0.4)), to(transparent)) 22/22px; }
   radio:indeterminate:checked {
-    border-image: -gtk-gradient(radial, center center, 0, center center, 0.001, to(#159f85), to(transparent)) 22/22px; }
+    border-image: -gtk-gradient(radial, center center, 0, center center, 0.001, to(#16a085), to(transparent)) 22/22px; }
 
 treeview.view check:selected,
 treeview.view check:selected:focus,
@@ -1986,9 +1986,9 @@ menu menuitem radio:checked:hover {
     -gtk-icon-transform: unset; } }
 @keyframes check_radio {
   from {
-    border-image: -gtk-gradient(radial, center center, 0, center center, 0.001, to(#159f85), to(transparent)) 22/22px; }
+    border-image: -gtk-gradient(radial, center center, 0, center center, 0.001, to(#16a085), to(transparent)) 22/22px; }
   to {
-    border-image: -gtk-gradient(radial, center center, 0, center center, 0.11364, to(#159f85), to(transparent)) 22/22px; } }
+    border-image: -gtk-gradient(radial, center center, 0, center center, 0.11364, to(#16a085), to(transparent)) 22/22px; } }
 @keyframes check_indeterminate {
   from {
     -gtk-icon-transform: unset; }
@@ -2045,7 +2045,7 @@ treeview.view radio {
     treeview.view check:checked, treeview.view check:indeterminate,
     treeview.view radio:checked,
     treeview.view radio:indeterminate {
-      color: #159f85; }
+      color: #16a085; }
     treeview.view check:checked:disabled, treeview.view check:indeterminate:disabled,
     treeview.view radio:checked:disabled,
     treeview.view radio:indeterminate:disabled {
@@ -2074,7 +2074,7 @@ scale {
     scale trough:disabled {
       color: rgba(255, 255, 255, 0.4); }
   scale highlight {
-    background-color: #159f85; }
+    background-color: #16a085; }
     scale highlight:disabled {
       background-color: transparent; }
   scale fill {
@@ -2210,7 +2210,7 @@ progressbar {
   progressbar.vertical progress {
     min-width: 4px; }
   progressbar trough {
-    background-color: rgba(21, 159, 133, 0.3); }
+    background-color: rgba(22, 160, 133, 0.3); }
   progressbar progress {
     background-color: #0e8c73; }
 
@@ -2248,7 +2248,7 @@ levelbar block.low {
 levelbar block.high, levelbar block:not(.empty) {
   background-color: #0e8c73; }
 levelbar block.full {
-  background-color: #159f85; }
+  background-color: #16a085; }
 levelbar block.empty {
   background-color: alpha(currentColor, 0.3);
   color: rgba(255, 255, 255, 0.4); }
@@ -2498,10 +2498,10 @@ filechooserbutton:drop(active) {
       box-shadow: none; }
     .sidebar row:selected:hover {
       color: #fff;
-      background-color: rgba(21, 159, 133, 0.8);
+      background-color: rgba(22, 160, 133, 0.8);
       box-shadow: none; }
     .sidebar row:selected:backdrop {
-      background-color: rgba(21, 159, 133, 0.8); }
+      background-color: rgba(22, 160, 133, 0.8); }
   paned .sidebar.left, paned .sidebar.right, paned .sidebar.left:dir(rtl), paned .sidebar:dir(rtl), paned .sidebar:dir(ltr), paned .sidebar {
     border-style: none; }
 
@@ -2541,12 +2541,12 @@ placessidebar row {
   placessidebar row.sidebar-placeholder-row {
     min-height: 2px;
     padding: 0 8px;
-    background-image: image(#159f85);
+    background-image: image(#16a085);
     background-clip: content-box; }
   placessidebar row.sidebar-new-bookmark-row {
-    color: #159f85; }
+    color: #16a085; }
   placessidebar row:drop(active):not(:disabled) {
-    box-shadow: inset 0 0 0 2px #159f85; }
+    box-shadow: inset 0 0 0 2px #16a085; }
 
 placesview .server-list-button > image {
   -gtk-icon-transform: rotate(0turn); }
@@ -2605,13 +2605,13 @@ paned.vertical > separator {
 infobar {
   border-style: none; }
   infobar.info {
-    background-color: #66BB6A; }
+    background-color: #87ffd0; }
   infobar.question {
-    background-color: #42A5F5; }
+    background-color: #1cdbb5; }
   infobar.warning {
-    background-color: #159f85; }
+    background-color: #16a085; }
   infobar.error {
-    background-color: #EF5350; }
+    background-color: #0b8069; }
   infobar.info > label, infobar.info, infobar.question > label, infobar.question, infobar.warning > label, infobar.warning, infobar.error > label, infobar.error {
     color: #FFFFFF; }
 
@@ -2672,9 +2672,9 @@ colorswatch.light {
 colorswatch:drop(active) {
   box-shadow: none; }
   colorswatch:drop(active).light overlay {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), 0 0 0 2px #159f85; }
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), 0 0 0 2px #16a085; }
   colorswatch:drop(active).dark overlay {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), 0 0 0 2px #159f85; }
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), 0 0 0 2px #16a085; }
 colorswatch overlay {
   transition: box-shadow 0.2s cubic-bezier(0, 0, 0.2, 1);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
@@ -2686,7 +2686,7 @@ colorswatch#add-color-button {
   colorswatch#add-color-button:only-child {
     border-radius: 2px; }
   colorswatch#add-color-button overlay {
-    background-image: linear-gradient(to right, #EF5350 25%, #159f85 25%, #159f85 50%, #66BB6A 50%, #66BB6A 75%, #42A5F5 75%);
+    background-image: linear-gradient(to right, #0b8069 25%, #16a085 25%, #16a085 50%, #87ffd0 50%, #87ffd0 75%, #1cdbb5 75%);
     color: #FFFFFF; }
 colorswatch:disabled {
   opacity: 0.4; }
@@ -2767,7 +2767,7 @@ entry selection, modelbutton.flat:selected,
  *********************/
 cursor-handle {
   border-radius: 2px;
-  background-color: #159f85;
+  background-color: #16a085;
   background-image: none; }
   cursor-handle.top:dir(ltr), cursor-handle.bottom:dir(rtl) {
     padding-left: 6px;
@@ -2812,8 +2812,8 @@ spinbutton:not(.vertical) button, notebook > header tab button.flat, button.side
 
 *:drop(active) {
   transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), inset 0 0 0 2px #159f85;
-  caret-color: #159f85; }
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), inset 0 0 0 2px #16a085;
+  caret-color: #16a085; }
 
 stackswitcher button.text-button {
   min-width: 100px; }
@@ -2855,11 +2855,11 @@ stackswitcher button.text-button.circular {
   to {
     background-color: alpha(currentColor, 0.3); } }
 .nautilus-operations-button-needs-attention {
-  color: #159f85;
+  color: #16a085;
   animation: needs_attention_keyframes 0.3s cubic-bezier(0.4, 0, 0.2, 1) 2 alternate; }
 
 .nautilus-operations-button-needs-attention-multiple {
-  color: #159f85;
+  color: #16a085;
   animation: needs_attention_keyframes 0.3s cubic-bezier(0.4, 0, 0.2, 1) 4 alternate; }
 
 .nautilus-window .floating-bar {
@@ -3156,7 +3156,7 @@ GdMainIconView.content-view {
   margin: 8px;
   border-radius: 2px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
-  background-color: #159f85;
+  background-color: #16a085;
   color: #FFFFFF;
   font-weight: bold; }
 
@@ -3628,7 +3628,7 @@ button.raven-trigger {
     background-color: alpha(currentColor, 0.3);
     color: #FFFFFF; }
   .budgie-panel .alert {
-    color: #159f85; }
+    color: #16a085; }
   .budgie-panel .end-region {
     border-radius: 2px;
     background-color: rgba(0, 0, 0, 0.2); }
@@ -3684,10 +3684,10 @@ frame.raven-frame > border {
 .raven {
   background-color: #404040; }
   .raven stackswitcher.linked > button {
-    border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #159f85 0%, transparent 0%) 0 0 0/0 0 0px;
+    border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #16a085 0%, transparent 0%) 0 0 0/0 0 0px;
     border-radius: 0; }
     .raven stackswitcher.linked > button:checked {
-      border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #159f85 100%, transparent 0%) 0 0 2/0 0 2px;
+      border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #16a085 100%, transparent 0%) 0 0 2/0 0 2px;
       background-color: transparent; }
   .raven .raven-header {
     min-height: 32px;
@@ -3796,7 +3796,7 @@ calendar.raven-calendar {
 .budgie-polkit-dialog .message {
   color: rgba(255, 255, 255, 0.6); }
 .budgie-polkit-dialog .failure {
-  color: #159f85; }
+  color: #16a085; }
 
 .budgie-run-dialog {
   background-color: #404040; }
@@ -3903,6 +3903,6 @@ widgets main borders color on backdrop windows */
 these are pretty self explicative */
 @define-color warning_color #FF6D00;
 @define-color error_color #0e8c73;
-@define-color success_color #159f85;
+@define-color success_color #16a085;
 @define-color content_view_bg #404040;
 @define-color placeholder_text_color #b3b3b3;
