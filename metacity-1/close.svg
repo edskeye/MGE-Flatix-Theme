@@ -8,11 +8,13 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 24 24"
-   fill="#808080"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="close.svg">
+   inkscape:version="0.92.0 r"
+   sodipodi:docname="close.svg"
+   width="25.6"
+   height="25.6"
+   style="fill:#808080">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -35,19 +37,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1264"
+     inkscape:window-height="836"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="45.254834"
-     inkscape:cx="10.976108"
-     inkscape:cy="7.4122217"
+     inkscape:zoom="32"
+     inkscape:cx="7.4645668"
+     inkscape:cy="8.6622217"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="22"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <path
-     d="m9.4141 8l-1.4141 1.4141 2.586 2.5859-2.586 2.586 1.4141 1.414 2.5859-2.586 2.586 2.586 1.414-1.414-2.586-2.586 2.586-2.5859-1.414-1.4141-2.586 2.586-2.5859-2.586z"
-     id="path4"
-     style="fill:#ffffff" />
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.99265593"
+     d="m 15.408107,8.5918929 c -0.37494,-0.37494 -0.978634,-0.37494 -1.353575,0 L 12,10.646427 9.9454673,8.5918928 c -0.3749402,-0.3749403 -0.9786345,-0.3749403 -1.3535747,0 -0.3749402,0.3749401 -0.3749402,0.9786343 0,1.3535745 l 2.0545334,2.0545337 -2.0545334,2.054532 c -0.3749402,0.374941 -0.3749402,0.978635 0,1.353574 0.3749402,0.374941 0.9786345,0.374941 1.3535747,0 L 12,13.353575 l 2.054533,2.054532 c 0.37494,0.374941 0.978635,0.374941 1.353574,0 0.374941,-0.374939 0.374941,-0.978633 0,-1.353574 l -2.054533,-2.054532 2.054533,-2.0545337 c 0.37494,-0.3749399 0.37494,-0.9786341 0,-1.3535744 z"
+     id="rect817"
+     inkscape:connector-curvature="0" />
 </svg>

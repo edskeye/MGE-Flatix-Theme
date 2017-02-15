@@ -1,11 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Flatix-Theme
+Name=MGE-Flatix-Theme
 Comment=Reworked theme for Manjaro Gnome Edition
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Flatix-Theme
-MetacityTheme=Flatix-Theme
+GtkTheme=MGE-Flatix-Theme
+MetacityTheme=MGE-Flatix-Theme
 IconTheme=Flatix
 CursorTheme=Breeze_cursors

@@ -10,7 +10,7 @@
    version="1.1"
    viewBox="0 0 24 24"
    id="svg2"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.0 r"
    sodipodi:docname="button.svg">
   <metadata
      id="metadata10">
@@ -34,19 +34,19 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
+     inkscape:window-width="1264"
+     inkscape:window-height="836"
      id="namedview6"
      showgrid="false"
      inkscape:zoom="78.666667"
-     inkscape:cx="22.563159"
+     inkscape:cx="20.56104"
      inkscape:cy="24.326842"
      inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-y="22"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <rect
-     style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-opacity:1"
+     style="opacity:1;fill:#16a085;fill-opacity:1;stroke:none;stroke-opacity:1"
      id="rect3142"
      width="23.969698"
      height="24.002819"
